@@ -96,3 +96,31 @@ img {
 {
     width:80%;
 }
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
