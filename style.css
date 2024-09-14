@@ -3,7 +3,7 @@ body {
     margin: 0px;
 }
 body > header {
-background-color: orange;
+background-color: #2d78bc;
 color:white ;
 display: flex;
 height:13vh;
@@ -46,7 +46,7 @@ body > main article {
 
 
 body > footer {
-    background-color: orange;
+    background-color: #2d78bc;
 }
 
 form {
